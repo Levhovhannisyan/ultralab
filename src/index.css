@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+.expert-list{
+  max-width: 1872px;
+  margin: 0 auto;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.navbar {
+  max-width: 1872px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.blog-preview{
+  display: block;
+  height: 53px;
+  padding: unset;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+.expertListButton{
+  background-color: #0085FF;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+.navbar span{
+  font-weight: bold;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 25px;
+}
+.navbar label{
+  cursor: pointer;
+}
+.arrowBlock{
+  background-color: #EDF3FF;
+  color: #0C1446;
+  display: inline-block;
+  border-radius: 2px;
+  padding-left: 4px;
+  padding-right: 6px;
+  margin-left: 15px;
+  padding-bottom: 2px;
+}
+.titleLi li{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+/*______________________________________________Pop Up______________________________________________*/
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  margin-top: 25px;
+  font-size: 18px;
+
+  color: #FFFFFF;
+  border: none;
+  border-radius: 24px;
+  padding: 14px;
+  padding-left: 22px;
+  padding-right: 22px;
+  cursor: pointer;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #FFFFFF;
+  max-width: 736px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 48px 15px 48px 40px;
+  box-shadow: 0px 0px 20px rgba(7, 87, 182, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.close-modal {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  border-radius: 15px;
+  width: 34px;
+  height: 32px;
+  margin-right: 15px;
+  border: unset;
+  padding-top: 4px;
+  background-color: white;
+  box-shadow: 0px 1px 6px 1px #0000001a;
+  cursor: pointer;
+}
+.close-modal img{
+  width: 18px;
+}
+
+
+.closeNSave{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 120px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  background: unset;
+}
+.btn-modal{
+  background: #0085FF;
+  font-size: 16px;
+}
+.btn-modal span{
+  background-color: #03BC90;
+  display: inline-block;
+  border-radius: 25px;
+  margin-right: 12px;
+}
+.btn-modal img{
+  width: 13px;
+  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+.btn-modal:hover{
+
+}
+/*_________________________________________________Table_______________________________________________*/
+.blog-preview li{
+  width: 14.2%;
+  display: inline-block;
+  float: left;
+  padding-top: 15px;
+}
+.userName img{
+  float: left;
+  width: 37px;
+  margin-top: -8px;
+  border: 2px solid white;
+  border-radius: 19px;
+  margin-right: 7px;
+  margin-left: 5px;
+}
+.userName span{
+  display: inline-block;
+  float: left;
+}
+.hourlyRate, .actions{
+  text-align: right;
+}
+.actions button{
+  background: unset;
+  border: unset;
+  cursor: pointer;
+}
+.actions img{
+  width: 20px;
+}
+
+
+#root > div > div > div > div > ul:nth-child(2),
+#root > div > div > div > div > ul:nth-child(4),
+#root > div > div > div > div > ul:nth-child(6),
+#root > div > div > div > div > ul:nth-child(8),
+#root > div > div > div > div > ul:nth-child(10),
+#root > div > div > div > div > ul:nth-child(12),
+#root > div > div > div > div > ul:nth-child(14),
+#root > div > div > div > div > ul:nth-child(16),
+#root > div > div > div > div > ul:nth-child(18),
+#root > div > div > div > div > ul:nth-child(20),
+#root > div > div > div > div > ul:nth-child(22),
+#root > div > div > div > div > ul:nth-child(24),
+#root > div > div > div > div > ul:nth-child(26),
+#root > div > div > div > div > ul:nth-child(28),
+#root > div > div > div > div > ul:nth-child(30){
+  background-color: rgba(210, 217, 226, 0.15);
+}
+
+
+/*_____________________________________________Expert Details__________________________________________*/
+.backgroundImage{
+  background: url("./images/backgroundImage.png");
+  height: 366px;
+  width: 100%;
+}
+.navBackground{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.singleBlock{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 40px;
+}
+.singleLeft{
+  flex: 30%;
+}
+.singleRight{
+  flex: 70%;
+}
+.editCoverPhoto{
+  display: inline-block;
+  float: right;
+}
+.singleRight a{
+  background-color: #FFFFFF;
+  text-decoration: none;
+  box-shadow: 0px 0px 6px rgba(7, 87, 182, 0.15);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+.goBackLeftArrow{
+  width: 7px;
+  margin-right: 4px;
+}
+.editCoverPhoto{
+  background: #FFFFFF;
+  padding: 4px;
+  padding-left: 18px;
+  padding-right: 18px;
+  box-shadow: 0px 0px 6px rgba(7, 87, 182, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.editCoverPhoto img{
+  width: 17px;
+  float: left;
+  margin-top: 2px;
+}
+.editCoverPhoto span{
+  display: inline-block;
+  font-size: 14px;
+  float: left;
+  margin-left: 11px;
+}
+.singleLeft img{
+  width: 150px;
+  padding: 4px;
+  border-radius: 150px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgb(30 30 31 / 43%);
+}
+.expert-content .singleLeft{
+  text-align: center;
+}
+.singleLeft p{
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.expert-content .singleRight{
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  padding: 14px;
+  padding-left: 20px;
+}
+.singleRight h4{
+  font-size: 24px;
+  font-weight: bold;
+}
+.basicInfo{
+  display: flex;
+}
+.infoColumn{
+  flex: 33%;
+}
+.infoColumn span{
+  color: #0085FF;
+  display: block;
+  margin-bottom: 4px;
+}
+.infoColumn{
+  margin-top: 17px;
+}
+.employmentType{
+  display: inline-block;
+  float: left;
+  border: 1px solid rgba(0, 133, 255, 0.51);
+  border-radius: 24px;
+  padding: 2px;
+  padding-left: 11px;
+  padding-right: 11px;
+  font-weight: bold;
+}
+.about span{
+  display: inline-block;
+  color: #0085FF;
+  margin-top: 23px;
+}
+.singleRightRow{
+  height: 41px;
+}
+.singleRightRow h4{
+  display: inline-block;
+  float: left;
+}
+.singleRightRow button{
+  display: inline-block;
+  float: right;
+  background-color: unset;
+  border: unset;
+  cursor: pointer;
+}
+.singleRightRow button>img{
+  float: left;
+  width: 23px;
+  margin-right: 15px;
+}
+.singleRightRow button>span{
+  float: left;
+  font-size: 16px;
+}
+.skills span>img{
+  width: 16px;
+  float: right;
+  margin-top: 3px;
+  margin-left: 7px;
+}
+.skills span{
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+  box-shadow: 0px 0px 20px rgb(7 87 182 / 17%);
+  border-radius: 24px;
+  padding: 8px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-right: 18px;
+}
+.skills h4{
+  width: 100%;
+  margin-top: 35px;
+}
+
+/*______________________________________________Create New Expert______________________________________*/
+.create{
+  max-width: 736px;
+  margin: 0 auto;
+}
+.createTitle{
+  font-size: 18px;
+  color: #0085FF;
+  font-weight: bold;
+}
+.createDescription{
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.fieldItem p{
+  font-size: 14px;
+  font-weight: bold;
+}
+.rowItem{
+  display: flex;
+  margin-bottom: 35px;
+}
+.fieldItem{
+  flex: 45%;
+}
+.fieldItem input{
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #0085FF;
+  height: 40px;
+  margin-top: 7px;
+  padding-left: 15px;
+  max-width: 320px;
+}
+
+.fieldItem select{
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #0085FF;
+  height: 44px;
+  margin-top: 7px;
+  padding-left: 10px;
+  max-width: 340px;
+}
+.fieldItem input:active, .fieldItem input:focus, .fieldItem select:active, .fieldItem select:focus{
+  outline: none;
+}
+.save{
+  background-color: #0085FF;
+  color: #FFFFFF;
+  height: 35px;
+  font-size: 14px;
+  border: none;
+  padding-left: 21px;
+  padding-right: 21px;
+  font-weight: bold;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+
+/*_______________________________________________Footer_______________________________________*/
+.Footer{
+  height: 141px;
+  background-color: #0C1446;
+  margin-top: 90px;
+}
+.FooterLeft-Block{
+  flex: 70%;
+}
+.FooterLeft-Block li{
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.FooterLeft-Block a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.FooterRight-Block{
+  flex: 30%;
+  text-align: right;
+}
+.FooterRight-Block span{
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 32px;
+}
+.FooterRight-Block img{
+  width: 24px;
+  margin-left: 20px;
+  float: right;
+}
+.FooterRight-Block p{
+  font-size: 16px;
+  color: #ffffffc9;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

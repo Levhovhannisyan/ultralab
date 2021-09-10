@@ -1,0 +1,54 @@
+{
+  "blogs": [
+    {
+      "firstname": "Courtney",
+      "lastname": "Wehner",
+      "jobtitle": "React",
+      "location": "Kent, Utah",
+      "employmenttype": "Project based",
+      "hourlyrate": 199,
+      "favorite": false,
+      "id": 1
+    },
+    {
+      "firstname": "Debra",
+      "lastname": "Becker",
+      "jobtitle": "Tensorflow",
+      "location": "USA",
+      "employmenttype": "Full time",
+      "hourlyrate": "1500",
+      "favorite": false,
+      "id": 2
+    },
+    {
+      "firstname": "Aubey ",
+      "lastname": "Rippin",
+      "jobtitle": "Express.js",
+      "location": "Yerevan",
+      "employmenttype": "Full time",
+      "hourlyrate": "500",
+      "favorite": false,
+      "id": 3
+    },
+    {
+      "firstname": "Victoria ",
+      "lastname": "Hemiston",
+      "jobtitle": "Tensorflow",
+      "location": "Yerevan",
+      "employmenttype": "Hourly",
+      "hourlyrate": "20",
+      "favorite": false,
+      "id": 4
+    },
+    {
+      "firstname": "Lorem",
+      "lastname": "Ipsum",
+      "jobtitle": "Tensorflow",
+      "location": "Italy",
+      "employmenttype": "Part time",
+      "hourlyrate": "1000",
+      "favorite": false,
+      "id": 5
+    }
+  ]
+}
